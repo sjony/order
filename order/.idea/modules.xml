@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/order.iml" filepath="$PROJECT_DIR$/order.iml" />
-      <module fileurl="file://$PROJECT_DIR$/order-base/order-base.iml" filepath="$PROJECT_DIR$/order-base/order-base.iml" />
-      <module fileurl="file://$PROJECT_DIR$/order-module/order-module.iml" filepath="$PROJECT_DIR$/order-module/order-module.iml" />
-      <module fileurl="file://$PROJECT_DIR$/order-web/order-web.iml" filepath="$PROJECT_DIR$/order-web/order-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/forum-config/forum-config.iml" filepath="$PROJECT_DIR$/forum-config/forum-config.iml" />
+      <module fileurl="file://$PROJECT_DIR$/forum-default/forum-default.iml" filepath="$PROJECT_DIR$/forum-default/forum-default.iml" />
+      <module fileurl="file://$PROJECT_DIR$/forum-parent.iml" filepath="$PROJECT_DIR$/forum-parent.iml" />
     </modules>
   </component>
 </project>

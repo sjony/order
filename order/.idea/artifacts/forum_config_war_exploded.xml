@@ -1,0 +1,45 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="forum-config:war exploded">
+    <output-path>$PROJECT_DIR$/forum-config/target/forum</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="forum-config" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: com.sjony:forum_base:0.0.1-SNAPSHOT" />
+          <element id="library" level="project" name="Maven: javax:javaee-api:7.0" />
+          <element id="library" level="project" name="Maven: com.sun.mail:javax.mail:1.5.0" />
+          <element id="library" level="project" name="Maven: javax.activation:activation:1.1" />
+          <element id="archive" name="forum-default-0.0.1-SNAPSHOT.jar">
+            <element id="module-output" name="forum-default" />
+          </element>
+          <element id="library" level="project" name="Maven: com.google.guava:guava:19.0" />
+          <element id="library" level="project" name="Maven: org.mybatis:mybatis:3.2.6" />
+          <element id="library" level="project" name="Maven: org.mybatis:mybatis-spring:1.2.2" />
+          <element id="library" level="project" name="Maven: com.sun.jersey:jersey-client:1.18.2" />
+          <element id="library" level="project" name="Maven: com.sun.jersey:jersey-core:1.18.2" />
+          <element id="library" level="project" name="Maven: com.sun.jersey:jersey-server:1.18.2" />
+          <element id="library" level="project" name="Maven: com.sun.jersey:jersey-servlet:1.18.2" />
+          <element id="library" level="project" name="Maven: com.sun.jersey.contribs:jersey-spring:1.18.2" />
+          <element id="library" level="project" name="Maven: mysql:mysql-connector-java:5.1.30" />
+          <element id="library" level="project" name="Maven: commons-dbcp:commons-dbcp:1.2.2" />
+          <element id="library" level="project" name="Maven: log4j:log4j:1.2.17" />
+          <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.7.7" />
+          <element id="library" level="project" name="Maven: org.slf4j:slf4j-log4j12:1.7.7" />
+          <element id="library" level="project" name="Maven: com.alibaba:fastjson:1.1.41" />
+          <element id="library" level="project" name="Maven: jstl:jstl:1.2" />
+          <element id="library" level="project" name="Maven: redis.clients:jedis:2.6.3" />
+          <element id="library" level="project" name="Maven: org.apache.commons:commons-pool2:2.3" />
+          <element id="library" level="project" name="Maven: commons-pool:commons-pool:1.5.6" />
+          <element id="library" level="project" name="Maven: c3p0:c3p0:0.9.1" />
+          <element id="library" level="project" name="Maven: commons-lang:commons-lang:2.6" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/forum-config/target/forum/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="forum-config/web/Web" />
+    </root>
+  </artifact>
+</component>

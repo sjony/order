@@ -12,6 +12,7 @@
         <module>order-base</module>
         <module>order-module</module>
         <module>order-web</module>
+        <module>../order-dubbo</module>
     </modules>
 
     <properties>
